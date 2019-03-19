@@ -1,8 +1,8 @@
 module.exports = function(grunt)
 {
-    var svgs = '<PATH>',
-        sass = '<PATH>',
-        font = '<PATH>';
+    var svgs = '<PATH>', // Path to SVG files, ex. ../icons/*.svg
+        sass = '<PATH>', // Path where the _icon.scss file is generated in, ex. ../sass/foundation/fonts/
+        font = '<PATH>'; // Path where the font files are generated in, ex. ../../web/assets/fonts/icons
 
     grunt.initConfig({
         webfont: {

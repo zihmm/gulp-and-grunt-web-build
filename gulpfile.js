@@ -1,7 +1,7 @@
 const { src, watch, dest } = require('gulp'), sass = require('gulp-sass'), notify = require('gulp-notify'), plumber = require('gulp-plumber'), glob = require('gulp-sass-glob');
 const paths = { 
-    sass: '<PATH>', 
-    css: '<PATH>' 
+    sass: '<PATH>', // SCSS / SASS Path, ex. ../sass/**/*.sass
+    css: '<PATH>' // CSS export path, ex. ../../web/assets/css/
 }
 
 function compile()
