@@ -21,8 +21,7 @@ function compile()
             sass({
                 outputStyle: 'compressed',
                 includePaths: [
-                    '/Library/Ruby/Gems/2.3.0/gems/bourbon-4.3.4/app/assets/stylesheets',
-                    '/Library/Ruby/Gems/2.3.0/gems/neat-1.9.1/app/assets/stylesheets'
+                    '/Library/Ruby/Gems/2.3.0/gems/neat-3.0.1/app/assets/stylesheets'
                 ]
             })
         )

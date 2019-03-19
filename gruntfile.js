@@ -4,7 +4,6 @@ module.exports = function(grunt)
         sass = '<PATH>',
         font = '<PATH>';
 
-
     grunt.initConfig({
         webfont: {
             build: {
