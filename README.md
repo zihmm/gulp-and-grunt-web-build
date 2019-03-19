@@ -1,2 +1,3 @@
-# gulp-and-grunt-web-build
-Building SASS with Gulp and additionally Grunt to build Iconf-Fonts from SVG
+# webbuild
+* Building SASS with Gulp (including the Bourbon Neat library)
+* Makes building SVG Webfonts easy with Grunt buildscript
